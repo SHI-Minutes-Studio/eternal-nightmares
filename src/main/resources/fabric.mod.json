@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "eternal-nightmares",
+	"version": "${version}",
+	"name": "Eternal Nightmares",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"SHI Minutes Studio & Contributors"
+	],
+	"contact": {
+		"homepage": "https://github.com/SHI-Minutes-Studio",
+		"sources": "https://github.com/SHI-Minutes-Studio/eternal-nightmares"
+	},
+	"license": "CC BY-NC-SA 4.0",
+	"icon": "assets/eternal-nightmares/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.shiminutes.eternalnightmares.EternalNightmares"
+		],
+		"client": [
+			"com.shiminutes.eternalnightmares.EternalNightmaresClient"
+		],
+		"fabric-datagen": [
+			"com.shiminutes.eternalnightmares.EternalNightmaresDataGenerator"
+		]
+	},
+	"mixins": [
+		"eternal-nightmares.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
