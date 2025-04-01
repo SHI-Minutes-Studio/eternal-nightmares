@@ -19,6 +19,9 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.DUST_BLOCK);
                         entries.add(ModItems.DUST);
+                        entries.add(ModBlocks.GRAY_ICE);
+                        entries.add(ModBlocks.COMPRESSED_GRAY_ICE);
+                        entries.add(ModBlocks.HARDENED_GRAY_ICE);
                     }).build());
 
 
