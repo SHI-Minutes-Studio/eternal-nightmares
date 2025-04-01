@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "eternalnightmares:gray_ice"
+    }
+  },
+  "result": {
+    "id": "eternalnightmares:compressed_gray_ice"
+  }
+}

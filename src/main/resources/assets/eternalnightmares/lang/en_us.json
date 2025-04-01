@@ -2,6 +2,9 @@
   "item.eternalnightmares.dust": "Dust",
 
   "block.eternalnightmares.dust_block": "Block of Dust",
+  "block.eternalnightmares.gray_ice": "Gray Ice",
+  "block.eternalnightmares.compressed_gray_ice": "Compressed Gray Ice",
+  "block.eternalnightmares.hardened_gray_ice": "Hardened Gray Ice",
 
   "itemgroup.eternalnightmares.disabled_structures": "Eternal Nightmares - Disabled Structures"
 }
